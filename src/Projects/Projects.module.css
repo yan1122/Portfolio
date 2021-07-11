@@ -1,0 +1,18 @@
+.ProjectsBlock {
+    height: 100vh;
+    background-color: #e097a1;
+
+}
+
+.ProjectsContainer {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.Projects{
+border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

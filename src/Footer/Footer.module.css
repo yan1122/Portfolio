@@ -1,0 +1,9 @@
+.footer{
+    height: 20vh;
+    background-color: lemonchiffon;
+}
+
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+}
