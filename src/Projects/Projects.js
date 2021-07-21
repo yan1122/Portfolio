@@ -7,7 +7,9 @@ const Projects = () => {
     return (
         <div className={s.ProjectsBlock}>
             <div className={`${sContainer.container} ${s.ProjectsContainer}`}>
-                <h2 className={s.title}>My Projects</h2>
+                <div className={s.title}>
+                    <h2> <span>My</span> Projects</h2>
+                </div>
                 <div className={s.Projects}>
                     <Project
                         src='https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png'

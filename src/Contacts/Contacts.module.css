@@ -16,11 +16,7 @@
 
 .item {
     margin: 5px;
-    width: 350px;
-}
-
-.item > textarea {
-    height: 200px;
+    width: 250px;
 }
 
 .Button {

@@ -9,7 +9,7 @@ function Main() {
             <div className={sContainer.container}>
             <div className={s.text}>
                 <span>Hi there</span>
-                <h1>I am Jeffrey Aaron</h1>
+                <h1>I am Anastasia Senatova</h1>
                 <p>Frontend developer</p>
             </div>
             <div className={s.photo}></div>

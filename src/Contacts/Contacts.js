@@ -14,7 +14,7 @@ const Contacts = () => {
                     <input className={s.item}/>
                     <textarea className={s.item}/>
                 </form>
-                <button className={s.Button}> Send</button>
+                <button type='submit' className={s.Button}> Send</button>
             </div>
         </div>
     )
