@@ -1,7 +1,16 @@
 .nav {
-    border: 1px solid red;
     width: 300px;
     display: flex;
     justify-content: space-evenly;
     margin: 30px;
+}
+.item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Activeitem {
+    color: #F68338;
+    text-decoration: none;
+
 }

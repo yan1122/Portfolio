@@ -1,13 +1,16 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: #ffd4d0;
+    display: flex;
+    align-items: center;
 }
 .text {
     width: 300px;
-    background-color: #f7f7f7;
 }
 .photo {
-    background-color: #f7f7f7;
+    border-radius: 10px;
+    background-image:url("https://sun9-49.userapi.com/impf/c850628/v850628899/a2ab9/t0yTiHj0-Eo.jpg?size=1145x1337&quality=96&sign=c36623c3d273ff6966440d801590d849&type=album");
+    background-size: cover;
+    background-position: center;
     width: 300px;
     height: 400px;
 }
