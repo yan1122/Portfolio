@@ -3,6 +3,16 @@ import s from "./Projects.module.css"
 import sContainer from '../CommonStyles/Container.module.css'
 import {Project} from "./Project/Project";
 import Title from "../CommonStyles/components/title/Title";
+import todolistIMG from './../assets/img/Безымянный.png'
+import inst from './../assets/img/inst.png'
+
+const todo = {
+    backgroundImage: `url(${todolistIMG})`,
+};
+
+const insta = {
+    backgroundImage: `url(${inst})`,
+}
 
 const Projects = () => {
     return (
@@ -11,17 +21,15 @@ const Projects = () => {
                 <Title mainText='My' text='Projects' />
                 <div className={s.Projects}>
                     <Project
-                        src='https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png'
+                        style={todo}
                         name='Todolist'
-                        info='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.'/>
+                        />
                     <Project
-                        src='https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png'
                         name='Instagram'
-                        info='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.'/>
+                        style={insta}
+                        />
                     <Project
-                        src='https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png'
-                        name='Social-Network'
-                        info='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.'/>
+                        name='Social-Network' />
                 </div>
             </div>
         </div>

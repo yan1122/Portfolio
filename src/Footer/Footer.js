@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={s.footer}>
             <div className={`${sContainer.container} ${s.FooterContainer}`}>
-                <h2>Иван Иванов</h2>
+                <h2>Ян Шашков</h2>
                 <h4> © 2021 все права защищены</h4>
             </div>
         </div>

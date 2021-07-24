@@ -8,7 +8,7 @@
     align-items: center;
     text-align: center;
     border: 1px solid black;
-    margin: 10px;
+    margin-bottom: 50px;
 }
 
 .imgContainer{
@@ -18,7 +18,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png");
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +26,7 @@
 }
 .link{
     width: 100px;
-    min-height: 40px;
+    height: 40px;
     background-color: #F68338;
     text-align: center;
 }
@@ -35,7 +34,7 @@
 .info{
     display: flex;
     flex-direction: column;
-    height: 20%;
+    width: 100%;
     padding: 30px;
     justify-content: space-between;
 }

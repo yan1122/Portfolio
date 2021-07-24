@@ -20,7 +20,8 @@ function App() {
                 <Route path='/skills' render={() => <Skills/>}/>
                 <Route path='/projects' render={() => <Projects/>}/>
                 <Route path='/contacts' render={() => <Contacts/>}/>
-                <Footer/>
+                <Route path='/contacts' render={() => <Footer/>}/>
+
             </div>
         </BrowserRouter>
     );
