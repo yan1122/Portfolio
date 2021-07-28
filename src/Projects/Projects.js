@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Projects.module.css"
+import s from "./Projects.module.scss"
 import sContainer from '../CommonStyles/Container.module.css'
 import {Project} from "./Project/Project";
 import Title from "../CommonStyles/components/title/Title";
@@ -18,18 +18,18 @@ const Projects = () => {
     return (
         <div className={s.ProjectsBlock}>
             <div className={`${sContainer.container} ${s.ProjectsContainer}`}>
-                <Title mainText='My' text='Projects' />
+                <Title mainText='My' text='Projects'/>
                 <div className={s.Projects}>
                     <Project
                         style={todo}
                         name='Todolist'
-                        />
+                    />
                     <Project
                         name='Instagram'
                         style={insta}
-                        />
+                    />
                     <Project
-                        name='Social-Network' />
+                        name='Social-Network'/>
                 </div>
             </div>
         </div>

@@ -1,9 +1,7 @@
 
 .title {
     color: #ffffff;
-}
-
-.title h2 {
+& h2 {
     font-weight: 600;
     color: #ffffff;
     font-size: 46px;
@@ -17,11 +15,11 @@
     position: relative;
 }
 
-.title h2 span {
+& h2 span {
     color: #F68338
 }
 
-.title h2 ::before {
+& h2 ::before {
     content: "";
     position: absolute;
     bottom: -7px;
@@ -35,7 +33,7 @@
     background: #F68338;
 }
 
-.title h2 ::after {
+& h2 ::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -47,3 +45,6 @@
     right: -20px;
     border-radius: 0 0 30px 30px;
 }
+}
+
+
